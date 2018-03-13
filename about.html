@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>V哥博客</title>
+	<link rel="shortcut icon" href="./images/favicon.ico" />
+	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+	<link href="css/style.css" rel='stylesheet' type='text/css' />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="" 
+	/>
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<!--/script-->
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+</script>
+<!---->
+
+</head>
+<body>
+<!---header---->			
+<div class="header">  
+	 <div class="container">
+		  <div class="logo">
+			  <a href="index.html"><img src="images/logo.jpg" title="" /></a>
+		  </div>
+			 <!---start-top-nav---->
+			 <div class="top-menu">
+				 <div class="search">
+					 <form id="bdfm" target="_blank" name="bdfm" method="get" action="http://www.baidu.com/s">
+    <table>
+       <tr>
+            <td>
+                 <a href="https://www.baidu.com">
+                 </a>
+            </td>
+            <td><input type="text" id="search1" placeholder="百度搜索" name="word"/></td>
+            <td><input type="submit" value="" /></td>
+         </tr>
+    </table>
+</form>
+				 </div>
+				  <span class="menu"> </span> 
+				   <ul>
+						<li class="active"><a href="index.html">主页</a></li>						
+						<li><a href="about.html">关于</a></li>	
+						<li><a href="contact.html">联系</a></li>						
+						<div class="clearfix"> </div>
+				 </ul>
+			 </div>
+			 <div class="clearfix"></div>
+					<script>
+					$("span.menu").click(function(){
+					$(".top-menu ul").slideToggle("slow" , function(){
+					});
+					});
+					</script>
+				<!---//End-top-nav---->					
+	 </div>
+</div>
+<!--/header-->
+<div class="about-content">
+	 <div class="container">
+		 <h2>关于我的博客</h2>
+		 <div class="about-section">
+			 <div class="about-grid">
+				 <h3>我就是我</h3>
+				 <p>下面是我的微博</p>
+				 
+			 </div> 
+			 <iframe width="100%" height="550" class="share_self"  frameborder="0" scrolling="no" src="http://widget.weibo.com/weiboshow/index.php?language=&width=0&height=550&fansRow=1&ptype=1&speed=0&skin=1&isTitle=1&noborder=1&isWeibo=1&isFans=0&uid=2010861955&verifier=d5e5b6db&dpc=1"></iframe>
+			 <p>音乐：徐梦圆-China-X</p>
+		 </div>
+		 <audio controls autoplay loop preload="auto">
+			<source src="media/徐梦圆-China-X.ogg" type="audio/ogg">
+			<source src="media/徐梦圆-China-X.mp3" type="audio/mpeg">
+			您的浏览器不支持 audio 元素。建议使用最新版Chrome浏览器。
+		</audio>
+</div>
+<!---->
+<div class="footer">
+	 <div class="container">
+	 <p>Copyrights © 2015 BrotherV All rights reserved</p>
+	 </div>
+</div>
+
+	

@@ -1,0 +1,101 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>V哥博客</title>
+	<link rel="shortcut icon" href="./images/favicon.ico" />
+	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+	<link href="css/style.css" rel='stylesheet' type='text/css' />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="" 
+	/>
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<!--/script-->
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+</script>
+<!---->
+
+</head>
+<body>
+<!---header---->			
+<div class="header">  
+	 <div class="container">
+		  <div class="logo">
+			  <a href="index.html"><img src="images/logo.jpg" title="" /></a>
+		  </div>
+			 <!---start-top-nav---->
+			 <div class="top-menu">
+				<div class="search">
+					 <form id="bdfm" target="_blank" name="bdfm" method="get" action="https://www.baidu.com/s">
+    <table>
+       <tr>
+            <td>
+                 <a href="http://www.baidu.com">
+                 </a>
+            </td>
+            <td><input type="text" id="search1" placeholder="百度搜索" name="word"/></td>
+            <td><input type="submit" value="" /></td>
+         </tr>
+    </table>
+</form>
+				 </div>
+				  <span class="menu"> </span> 
+				   <ul>
+						<li class="active"><a href="index.html">主页</a></li>						
+						<li><a href="about.html">关于</a></li>	
+						<li><a href="contact.html">联系</a></li>						
+						<div class="clearfix"> </div>
+				 </ul>
+			 </div>
+			 <div class="clearfix"></div>
+					<script>
+					$("span.menu").click(function(){
+					$(".top-menu ul").slideToggle("slow" , function(){
+					});
+					});
+					</script>
+				<!---//End-top-nav---->					
+	 </div>
+</div>
+<!--/header-->
+<div class="about-content">
+	 <div class="container">
+		 <h2>JAVASCRIPT学习进度表</h2>
+		 <div class="about-section">
+			 <div class="about-grid">
+				 <p>
+					<ol>
+						<li>
+							<a href="js_html/js01.html">JavaScript 用法</a>
+							-2017.11.08
+						</li>
+						<li><a href="js_html/js02.html">JavaScript 输出</a>-2017.11.09</li>
+						<li><a href="js_html/js03.html">JavaScript 语法</a>-2017.11.10</li>
+						<li><a href="js_html/js04.html">JavaScript 语句</a>-2017.11.11</li>
+						<li><a href="js_html/js05.html">JavaScript 注释</a>-2017.11.12</li>
+						<li><a href="js_html/js06.html">JavaScript 变量</a>-2017.11.13</li>
+						<li><a href="js_html/js07.html">JavaScript 数据类型</a>-2017.11.14</li>
+						<li>学习ing</li>
+					</ol>
+				 </p>
+			 </div> 
+		  </div>		 
+	  </div>
+</div>
+<!---->
+<div class="footer">
+	 <div class="container">
+	 <p>Copyrights © 2015 BrotherV All rights reserved</p>
+	 </div>
+</div>
+
+	

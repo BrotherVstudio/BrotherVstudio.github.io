@@ -1,60 +1,145 @@
-<!doctype html>
+<!DOCTYPE HTML>
 <html>
-
 <head>
-<meta charset="utf-8">
-<title>V哥工作室</title>
-<link href="main.css" rel="stylesheet" type="text/css">
-<link rel="shortcut icon" href="favicon.ico">
-<link rel="Bookmark" href="favicon.ico">
-</head>
-
-<body background="bg.jpg" height="100%" width="100%">
-<h1 ><img src="logo.jpg" width="31" height="31" alt=""/>V哥工作室</h1>
-<br />
-<br />
-<br />
-<br />
-<br />
-<h2 >工作室介绍</h2>
-<p2 >
-  V哥工作室成立于2014年，以V哥为工作室的室长。<br />
-  工作室曾制作高中毕业纪念电子相册，与“祥子工作室”联合制作的先锋杯活动报告视频，所制作的作品均受到了广泛好评；
-</p2>
-
-<h2>室长介绍</h2>
-<p22>
-V哥<br />
-目前任河洛星辰网技术部部长，《电脑报》*机智猫超级群管理员；<br />
-个性签名：非典型性程序猿~
-</p22>
-
-<h2>联系我们</h2>
-<p><a href="mailto:1570237812@qq.com" title="单击这里可以发电子邮件。">给我发E-mail</a><br />
-<a href="http://weibo.com/u/2010861955" title="关注我的微博">我的微博主页</a><br />
-</p>
-
-<h3>友情链接</h3>
-<a href="http://hlxc.lynu.edu.cn" title="点击进入河洛星辰网">河洛星辰网</a><br />
-
-<br />
-<br />
-<br />
-
-<hr style="height:1px;border:none;border-top:1px solid #555555;" />
-<img src="githublogo.png" width="46" height="40" alt=""/>
-<p31>I'm hosted with GitHub Pages.2016 Copyrights BrotherV - All Rights Reserved;2016 V哥工作室 - 保留所有权利。</p31>
-
-<script>
-var _hmt = _hmt || [];
-(function() {
-  var hm = document.createElement("script");
-  hm.src = "//hm.baidu.com/hm.js?0e6607d7a785fc386bd9a3c4fb85cbb5";
-  var s = document.getElementsByTagName("script")[0]; 
-  s.parentNode.insertBefore(hm, s);
-})();
+	<title>V哥博客</title>
+	<link rel="shortcut icon" href="./images/favicon.ico" />
+	<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+	<link href="css/style.css" rel='stylesheet' type='text/css' />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="keywords" content="" 
+	/>
+	<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+	
+<script type="text/javascript" src="js/move-top.js"></script>
+<script type="text/javascript" src="js/easing.js"></script>
+<!--/script-->
+<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
 </script>
+<!---->
 
+</head>
+<body>
+<!---header---->			
+<div class="header">  
+	 <div class="container">
+		  <div class="logo">
+			  <a href="index.html"><img src="images/logo.jpg" title="" /></a>
+		  </div>
+			 <!---start-top-nav---->
+			 <div class="top-menu">
+				 <div class="search">
+					 <form id="bdfm" target="_blank" name="bdfm" method="get" action="https://www.baidu.com/s">
+    <table>
+       <tr>
+            <td>
+                 <a href="http://www.baidu.com">
+                 </a>
+            </td>
+            <td><input type="text" id="search1" placeholder="百度搜索" name="word"/></td>
+            <td><input type="submit" value="" /></td>
+         </tr>
+    </table>
+</form>
+				 </div>
+				  <span class="menu"> </span> 
+				   <ul>
+						<li class="active"><a href="index.html">主页</a></li>						
+						<li><a href="about.html">关于</a></li>	
+						<li><a href="contact.html">联系</a></li>						
+						<div class="clearfix"> </div>
+				 </ul>
+			 </div>
+			 <div class="clearfix"></div>
+					<script>
+					$("span.menu").click(function(){
+					$(".top-menu ul").slideToggle("slow" , function(){
+					});
+					});
+					</script>
+				<!---//End-top-nav---->					
+	 </div>
+</div>
+<!--/header-->
+<div class="content">
+	 <div class="container">
+		 <div class="content-grids">
+			 <div class="col-md-8 content-main">
+				 <div class="content-grid">	
+					<div class="content-grid-info">
+						 <img src="images/005.jpg" alt=""/>
+						 <div class="post-info">
+						 <h4><a href="./cube/cube.html">jQuery立方体图片展示</a>2017.12.25</h4>
+						 <p>很久没更新了，最近在了解js和jQuery，这是做的最美洛师的图片展示。</p>
+						 <a href="./cube/cube.html"><span></span>更多</a>
+						 </div>
+					 </div>
+					<div class="content-grid-info">
+						 <img src="images/004.jpg" alt=""/>
+						 <div class="post-info">
+						 <h4><a href="./calculator.html">JS计算器</a>2017.11.15</h4>
+						 <p>因为学习JS中看到了JS可以像Java一样进行运算，所以找了一个html+js的计算器来试一试。</p>
+						 <a href="./calculator.html"><span></span>更多</a>
+						 </div>
+					 </div>
+					<div class="content-grid-info">
+						 <img src="images/js_logo.jpg" alt=""/>
+						 <div class="post-info">
+						 <h4><a href="./js_main.html">javascript学习作业</a>2017.11.08</h4>
+						 <p>第四——十次作业</p>
+						 <a href="./js_main.html"><span></span>更多</a>
+						 </div>
+					 </div>
+					<div class="content-grid-info">
+						 <img src="images/cnjc.png" alt=""/>
+						 <div class="post-info">
+						 <h4><a href="http://47.95.253.210:10010">V哥版菜鸟教程发布啦</a>2017.10.17</h4>
+						 <p>V哥版菜鸟教程</p>
+						 <a href="http://47.95.253.210:10010"><span></span>更多</a>
+						 </div>
+					 </div>
+					 <div class="content-grid-info">
+						 <img src="images/001.png" alt=""/>
+						 <div class="post-info">
+						 <h4><a href="cxyxlzd.html">第一次作业</a>2017.09</h4>
+						 <p>程序员修炼之道第一版</p>
+						 <a href="cxyxlzd.html"><span></span>更多</a>
+						 </div>
+					 </div>
+					 <div class="content-grid-info">
+						 <img src="images/002.png" alt=""/>
+						 <div class="post-info">
+						 <h4><a href="cxyxlzd02.html">第二次作业</a>2017.09</h4>
+						 <p>程序员修炼之道第二版</p>
+						 <a href="cxyxlzd02.html"><span></span>更多</a>
+						 </div>
+					 </div>
+					 <div class="content-grid-info">
+						 <img src="images/003.png" alt=""/>
+						 <div class="post-info">
+						 <h4><a href="cxyxlzd03.html">第三次作业</a>2017.10</h4>
+						 <p>程序员修炼之道第三版Building</p>
+						 <a href="cxyxlzd03.html"><span></span>更多</a>
+						 </div>
+					 </div>
+					 
+				 </div>
+			  </div>
+			  <div class="clearfix"></div>
+		  </div>
+	  </div>
+</div>
+<!---->
+<div class="footer">
+	 <div class="container">
+	 <p>Copyrights © 2017-2018 BrotherV All rights reserved</p>
+	 </div>
+</div>
 
-</body>
-</html>
+	
